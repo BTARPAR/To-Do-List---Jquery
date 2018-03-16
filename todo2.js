@@ -2,6 +2,7 @@
 
 $(document).ready(function () {
     $(document).ready(c(), display());
+
     $("#add").click(function () {
         var a = JSON.parse(localStorage.getItem("todo2"));
         var input = $("input[name = task]").val();
